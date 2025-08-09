@@ -111,9 +111,6 @@ def generate_cofmini_pdf(creatures, output_path):
     pdf = create_pdf_base()
     
     for i, creature_data in enumerate(creatures):
-        if i > 0:
-            pdf.add_page()
-        
         # Titre de la créature avec niveau
         niveau = creature_data.get("niveau", "")
         name = creature_data.get("name", "Créature sans nom")
