@@ -1,0 +1,29 @@
+{
+  "name": "Cerbère",
+  "niveau": 2,
+  "description": "Un chien à trois têtes de la taille d'un poney !",
+  "caracteristiques": {
+    "adresse": 1,
+    "esprit": -2,
+    "puissance": 3
+  },
+  "defenses": {
+    "defense": 12,
+    "points_de_vie": 12
+  },
+  "attaques": [
+    {
+      "nom": "Morsure",
+      "degats": "1d6+3",
+      "type": "contact"
+    }
+  ],
+  "capacites_speciales": [
+    {
+      "nom": "Têtes multiples",
+      "description": "Le cerbère peut attaquer jusqu'à 3 adversaires différents au contact (pas plus d'une attaque chacun).",
+      "type": "special"
+    }
+  ],
+  "system": "cofmini"
+}

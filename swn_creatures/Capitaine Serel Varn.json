@@ -1,0 +1,31 @@
+{
+  "title": "Capitaine Serel Varn – Lame du Néant – Niveau 4",
+  "role": "Corsaire tacticienne errante, hantée par les fantômes d’un empire effondré",
+  "stats": {
+    "PV": 32,
+    "CA": 16,
+    "Initiative": 1,
+    "Effort": 2,
+    "Moral": 10
+  },
+  "capacities": [
+    "Commandement glacial : +2 aux jets de Moral des alliés dans un rayon de 10m.",
+    "Tacticienne orbitale : Peut relancer un jet de Tactique navale une fois par combat spatial.",
+    "Chasseuse de secrets : Avantage aux jets de Notice concernant les anomalies ou artefacts.",
+    "Code d’honneur du Néant : Ne trahit jamais un accord formel… sauf si on trahit d’abord."
+  ],
+  "weapons": [
+    {
+      "name": "Pistolet mono-laser ZK-Typheus",
+      "damage": "1d8+1",
+      "range": "10m",
+      "trait": "Pénétration 2, tir silencieux"
+    },
+    {
+      "name": "Gantelet amplifié tactique",
+      "damage": "1d6",
+      "range": "corps-à-corps",
+      "trait": "Choc (Physique vs 8 en cas de critique pour éviter l'étourdissement)"
+    }
+  ]
+}

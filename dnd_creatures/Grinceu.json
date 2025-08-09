@@ -1,0 +1,63 @@
+{
+    "name": "Grinceu",
+    "type": "Esprit mort-vivant squelettique",
+    "hit_points": "27 (20 + Magicien lvl)",
+    "speed": "9 m",
+    "vulnerabilities": [],
+    "damage_immunities": [
+        "nécrotique",
+        "poison"
+    ],
+    "condition_immunities": [
+        "épuisement",
+        "effrayé",
+        "paralysé",
+        "empoisonné"
+    ],
+    "senses": {
+        "darkvision": "18 m",
+        "passive_perception": 10
+    },
+    "languages": "Comprend les langues que vous parlez",
+    "challenge_rating": "( XP)",
+    "armor_class": 14,
+    "saving_throws": {
+        "FOR": 1,
+        "DEX": 3,
+        "CON": 2,
+        "INT": -3,
+        "SAG": 0,
+        "CHA": -1
+    },
+    "stats": {
+        "FOR": 12,
+        "DEX": 16,
+        "CON": 15,
+        "INT": 4,
+        "SAG": 10,
+        "CHA": 9
+    },
+    "modifiers": {
+        "FOR": 1,
+        "DEX": 3,
+        "CON": 2,
+        "INT": -3,
+        "SAG": 0,
+        "CHA": -1
+    },
+    "actions": [
+        {
+            "name": "Multiattaque",
+            "description": "L’esprit effectue un nombre d’attaques égal à la moitié du niveau de ce sort (arrondi à l’inférieur)."
+        },
+        {
+            "name": "Éclair de Tombe",
+            "type": "Ranged Spell Attack",
+            "attack_bonus": "modificateur d’attaque de sort",
+            "range": "45 m",
+            "target": "Une cible",
+            "damage": "2d4 + 3 + niveau du sort",
+            "damage_type": "nécrotique"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Sloors",
+  "niveau": 6,
+  "description": "C'est… c'est énorme ! Plus gros qu'un éléphant !",
+  "caracteristiques": {
+    "adresse": 0,
+    "esprit": 0,
+    "puissance": 8
+  },
+  "defenses": {
+    "defense": 18,
+    "points_de_vie": 95
+  },
+  "attaques": [
+    {
+      "nom": "Morsure",
+      "degats": "1d12+8",
+      "type": "contact"
+    }
+  ],
+  "capacites_speciales": [
+    {
+      "nom": "Gober",
+      "description": "Lancez deux d20 en attaque pour le Sloors. Si un seul dé obtient une réussite, infligez des dommages normaux, mais si les deux dés obtiennent une réussite, la cible est gobée ! Une cible gobée subit automatiquement 1d6 dommage par tour. Elle peut continuer à attaquer à l'intérieur du Sloors, mais lance deux d20 et garde le moins bon.",
+      "degats_gobe": "1d6 par tour",
+      "type": "special"
+    }
+  ],
+  "system": "cofmini"
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Tiras Noll – Sniper de l’Ombre – Niveau 4",
+  "role": "Tireur embusqué spécialisé dans l’élimination à longue portée",
+  "stats": {
+    "PV": 26,
+    "CA": 14,
+    "Initiative": 2,
+    "Effort": 1,
+    "Moral": 10,
+    "Compétence de combat": "+8",
+    "Portée": "10 m",
+    "Jet d'attaque": "+4",
+    "Seuil de sauvegarde": "14+"
+  },
+  "capacities": [
+    "Tir focalisé : inflige +1d6 de dégâts si le tireur n’a pas bougé ce round.",
+    "Camouflage optique : +2 à la CA si immobile et à couvert.",
+    "Marquage prioritaire : permet à un allié de bénéficier d’un bonus de +1 à l’attaque contre la même cible."
+  ],
+  "weapons": [
+    {
+      "name": "Fusil longue portée à condensation",
+      "damage": "2d8+4",
+      "range": "100m",
+      "trait": "Précis, silencieux, nécessite un round d’ajustement pour les tirs critiques"
+    },
+    {
+      "name": "Pistolet à impulsion compacte",
+      "damage": "1d6+1",
+      "range": "10m",
+      "trait": "Discret, utilisé en dernier recours"
+    }
+  ]
+}

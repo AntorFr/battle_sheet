@@ -1,0 +1,30 @@
+{
+  "name": "Pweekyn",
+  "niveau": 1,
+  "description": "Nounours joyeux mais cannibales !",
+  "caracteristiques": {
+    "adresse": 1,
+    "esprit": 0,
+    "puissance": -2
+  },
+  "defenses": {
+    "defense": 12,
+    "points_de_vie": 7
+  },
+  "attaques": [
+    {
+      "nom": "Sagaie",
+      "degats": "1d6+1",
+      "type": "contact/distance"
+    }
+  ],
+  "capacites_speciales": [
+    {
+      "nom": "Sagaie",
+      "description": "Les Pweekyn peuvent utiliser leur sagaie avec une efficacité égale au contact ou à distance (portée 20 mètres).",
+      "portee": "20 mètres",
+      "type": "arme"
+    }
+  ],
+  "system": "cofmini"
+}

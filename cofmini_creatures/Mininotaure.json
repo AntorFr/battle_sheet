@@ -1,0 +1,29 @@
+{
+  "name": "Mininotaure",
+  "niveau": 2,
+  "description": "Petit mais costaud, avec une double paire de cornes.",
+  "caracteristiques": {
+    "adresse": 1,
+    "esprit": 0,
+    "puissance": 3
+  },
+  "defenses": {
+    "defense": 12,
+    "points_de_vie": 15
+  },
+  "attaques": [
+    {
+      "nom": "Cornes",
+      "degats": "1d8+3",
+      "type": "contact"
+    }
+  ],
+  "capacites_speciales": [
+    {
+      "nom": "Charge",
+      "description": "Si le mininotaure utilise une action de mouvement pour se rapprocher de sa cible avant son attaque, lancez deux d20 pour cette attaque.",
+      "type": "special"
+    }
+  ],
+  "system": "cofmini"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gobelin mineur",
+  "niveau": 0,
+  "type": "minus",
+  "description": "Cette petite créature verte possède un grand nez.",
+  "caracteristiques": {
+    "adresse": 2,
+    "esprit": 0,
+    "puissance": -1
+  },
+  "defenses": {
+    "defense": 12,
+    "points_de_vie": 3
+  },
+  "attaques": [
+    {
+      "nom": "Arme",
+      "degats": "1d6-1",
+      "type": "contact"
+    }
+  ],
+  "capacites_speciales": [],
+  "system": "cofmini"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Gob-mouton",
+  "niveau": 4,
+  "description": "Un crapaud gros comme une vache avec des ailes de libellules…",
+  "caracteristiques": {
+    "adresse": -1,
+    "esprit": -2,
+    "puissance": 6
+  },
+  "defenses": {
+    "defense": 15,
+    "points_de_vie": 55
+  },
+  "attaques": [
+    {
+      "nom": "Morsure",
+      "degats": "1d6+6",
+      "type": "contact"
+    }
+  ],
+  "capacites_speciales": [
+    {
+      "nom": "Gober",
+      "description": "Le Gob-mouton peut attaquer à distance (portée 10 mètres) avec sa langue collante. La créature est attirée à lui à moins de réussir un test de Puissance difficulté 15 et elle subit immédiatement une attaque de contact.",
+      "portee": "10 mètres",
+      "type": "distance",
+      "difficulte": 15
+    },
+    {
+      "nom": "Vol",
+      "description": "Le Gob-mouton peut se déplacer de 10 mètres par action de mouvement en volant.",
+      "deplacement": "10 mètres",
+      "type": "mouvement"
+    }
+  ],
+  "system": "cofmini"
+}

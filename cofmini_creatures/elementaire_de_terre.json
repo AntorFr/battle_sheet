@@ -1,0 +1,40 @@
+{
+    "name": "Élémentaire de terre",
+    "niveau": 4,
+    "description": "Une masse de roche vivante, lente mais terriblement puissante, invoquée pour garder les lieux sacrés ou dangereux.",
+    "caracteristiques": {
+        "adresse": -1,
+        "esprit": 0,
+        "puissance": 6
+    },
+    "defenses": {
+        "defense": 16,
+        "points_de_vie": 40
+    },
+    "attaques": [
+        {
+            "nom": "Poing rocheux",
+            "degats": "2d6+6",
+            "type": "contact"
+        }
+    ],
+    "capacites_speciales": [
+        {
+            "nom": "Attaques multiples",
+            "description": "L'élémentaire peut effectuer deux attaques de Poing rocheux à chaque tour.",
+            "type": "special"
+        },
+        {
+            "nom": "Déplacement dans la terre",
+            "description": "L'élémentaire peut creuser à travers la terre et la pierre non magique et non travaillée. Au cours de ce mouvement, il ne dérange pas les matériaux à travers lesquels il passe.",
+            "type": "mouvement"
+        },
+        {
+            "nom": "Vision tellurique",
+            "description": "Perçoit les vibrations du sol dans un rayon de 20 mètres, même à travers les murs ou la terre.",
+            "type": "special",
+            "portee": "20 mètres"
+        }
+    ],
+    "system": "cofmini"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Dragonewt rouge",
+  "niveau": 5,
+  "description": "Pas vraiment un dragon, mais plus vraiment un dragonnet.",
+  "caracteristiques": {
+    "adresse": 2,
+    "esprit": 2,
+    "puissance": 6
+  },
+  "defenses": {
+    "defense": 17,
+    "points_de_vie": 65
+  },
+  "attaques": [
+    {
+      "nom": "Morsure",
+      "degats": "1d10+6",
+      "type": "contact"
+    }
+  ],
+  "capacites_speciales": [
+    {
+      "nom": "Souffle",
+      "description": "Le dragonewt crache un projectile de feu (remplace une attaque, portée 20 mètres) qui explose dans un rayon de 5 mètres autour du point d'impact. Toutes les créatures dans la zone subissent 5d6 dommages de feu, un PJ qui réussit un test d'Adresse difficulté 15 divise ces dommages par 2.",
+      "portee": "20 mètres",
+      "zone": "rayon de 5 mètres",
+      "degats": "5d6 feu",
+      "difficulte": 15,
+      "type": "distance"
+    },
+    {
+      "nom": "Résistance",
+      "description": "Le dragonewt est immunisé aux dommages de feu.",
+      "type": "resistance"
+    },
+    {
+      "nom": "Vol",
+      "description": "Le dragonewt peut se déplacer de 30 mètres par action de mouvement en volant.",
+      "deplacement": "30 mètres",
+      "type": "mouvement"
+    }
+  ],
+  "system": "cofmini"
+}

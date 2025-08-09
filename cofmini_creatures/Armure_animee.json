@@ -1,0 +1,34 @@
+{
+    "name": "Armure animée",
+    "niveau": 3,
+    "description": "Coquille de métal mue par une magie ancienne, programmée pour patrouiller et capturer les intrus de la tour.",
+    "caracteristiques": {
+        "adresse": 0,
+        "esprit": -2,
+        "puissance": 4
+    },
+    "defenses": {
+        "defense": 17,
+        "points_de_vie": 22
+    },
+    "attaques": [
+        {
+            "nom": "Coup de gantelet",
+            "degats": "1d6+4",
+            "type": "contact"
+        }
+    ],
+    "capacites_speciales": [
+        {
+            "nom": "Apparence trompeuse",
+            "description": "Lorsque l'armure reste immobile, elle ne peut être distinguée d'une armure normale.",
+            "type": "special"
+        },
+        {
+            "nom": "Sensibilité à l’antimagie",
+            "description": "L'armure se retrouve incapable d'agir lorsqu'elle se situe dans un champ antimagie. Si elle est ciblée par une dissipation de la magie, l'armure doit réussir un jet de sauvegarde de Constitution contre le DD de sort du lanceur ou tomber inconsciente pendant 1 minute.",
+            "type": "special"
+        }
+    ],
+    "system": "cofmini"
+}

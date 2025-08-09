@@ -1,0 +1,69 @@
+{
+    "name": "Atchoum",
+    "type": "Esprit mort-vivant spectrale",
+    "hit_points": "37 (30 + Magicien lvl)",
+    "speed": "Vol 12 m",
+    "vulnerabilities": [],
+    "damage_immunities": [
+        "nécrotique",
+        "poison"
+    ],
+    "condition_immunities": [
+        "épuisement",
+        "effrayé",
+        "paralysé",
+        "empoisonné"
+    ],
+    "senses": {
+        "darkvision": "18 m",
+        "passive_perception": 10
+    },
+    "languages": "Comprend les langues que vous parlez",
+    "challenge_rating": "( XP)",
+    "armor_class": 14,
+    "saving_throws": {
+        "FOR": 1,
+        "DEX": 3,
+        "CON": 2,
+        "INT": -3,
+        "SAG": 0,
+        "CHA": -1
+    },
+    "stats": {
+        "FOR": 12,
+        "DEX": 16,
+        "CON": 15,
+        "INT": 4,
+        "SAG": 10,
+        "CHA": 9
+    },
+    "modifiers": {
+        "FOR": 1,
+        "DEX": 3,
+        "CON": 2,
+        "INT": -3,
+        "SAG": 0,
+        "CHA": -1
+    },
+    "traits": [
+        {
+            "name": "Passage incorporel",
+            "description": "L’esprit peut se déplacer à travers d’autres créatures et objets comme s’ils étaient un terrain difficile. S’il termine son tour à l’intérieur d’un objet, il est rejeté vers l’espace inoccupé le plus proche et subit 1d10 dégâts de force pour chaque 1,50 m parcouru."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattaque",
+            "description": "L’esprit effectue un nombre d’attaques égal à la moitié du niveau de ce sort (arrondi à l’inférieur)."
+        },
+        {
+            "name": "Toucher Mortel",
+            "type": "Melee Weapon Attack",
+            "attack_bonus": "modificateur d’attaque de sort",
+            "reach": "1,5 m",
+            "damage": "1d8 + 3 + niveau du sort",
+            "damage_type": "nécrotique",
+            "effect": "La cible doit réussir un jet de sauvegarde de Sagesse contre votre DD de sauvegarde de sort, sans quoi elle est effrayée par l’esprit jusqu’à la fin de son prochain tour."
+        }
+    ]
+}

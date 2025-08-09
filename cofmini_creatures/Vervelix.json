@@ -1,0 +1,40 @@
+{
+    "name": "Vervelix, homoncule",
+    "niveau": 1,
+    "description": "Petit serviteur artificiel d’Éphérol : peureux mais futé, messager idéal dans la tour.",
+    "caracteristiques": {
+        "adresse": 2,
+        "esprit": 2,
+        "puissance": -1
+    },
+    "defenses": {
+        "defense": 13,
+        "points_de_vie": 6
+    },
+    "attaques": [
+        {
+            "nom": "Piqûre",
+            "degats": "1d4-1",
+            "type": "contact"
+        }
+    ],
+    "capacites_speciales": [
+        {
+            "nom": "Vol",
+            "description": "Se déplace en vol jusqu’à 12 mètres par action de mouvement.",
+            "type": "mouvement",
+            "deplacement": "12 mètres"
+        },
+        {
+            "nom": "Lien télépathique (créateur)",
+            "description": "Peut transmettre ce qu’il perçoit à son créateur et recevoir des instructions simples (dans notre campagne, il réagit aux mots de commande d’Éphérol).",
+            "type": "special"
+        },
+        {
+            "nom": "Immunités d’artificiel",
+            "description": "Immunisé aux dégâts de poison et aux états charmé et empoisonné.",
+            "type": "resistance"
+        }
+    ],
+    "system": "cofmini"
+}

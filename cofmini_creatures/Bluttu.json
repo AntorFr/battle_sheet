@@ -1,0 +1,35 @@
+{
+  "name": "Bluttu",
+  "niveau": 3,
+  "description": "Un gros démon qui adore jouer de vilains tours.",
+  "caracteristiques": {
+    "adresse": 3,
+    "esprit": 2,
+    "puissance": 4
+  },
+  "defenses": {
+    "defense": 16,
+    "points_de_vie": 30
+  },
+  "attaques": [
+    {
+      "nom": "Morsure",
+      "degats": "1d10+4",
+      "type": "contact"
+    }
+  ],
+  "capacites_speciales": [
+    {
+      "nom": "Adhérence",
+      "description": "Le Bluttu peut se déplacer sur les surfaces verticales ou au plafond comme au sol.",
+      "type": "mouvement"
+    },
+    {
+      "nom": "Illusions",
+      "description": "Le Bluttu peut créer des illusions animées et sonores à une portée de 30 mètres.",
+      "portee": "30 mètres",
+      "type": "special"
+    }
+  ],
+  "system": "cofmini"
+}

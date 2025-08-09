@@ -1,0 +1,30 @@
+{
+  "name": "Grizou",
+  "niveau": 1,
+  "description": "Une boule de poils teigneuse de 50 cm de haut.",
+  "caracteristiques": {
+    "adresse": 2,
+    "esprit": -1,
+    "puissance": -2
+  },
+  "defenses": {
+    "defense": 14,
+    "points_de_vie": 7
+  },
+  "attaques": [
+    {
+      "nom": "Éclair",
+      "degats": "1d6+2",
+      "type": "distance"
+    }
+  ],
+  "capacites_speciales": [
+    {
+      "nom": "Éclair",
+      "description": "Le Grizou peut produire un éclair entre ses protubérances crâniennes (portée 30 mètres, attaque à distance).",
+      "portee": "30 mètres",
+      "type": "distance"
+    }
+  ],
+  "system": "cofmini"
+}

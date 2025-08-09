@@ -1,0 +1,57 @@
+{
+  "name": "Sacapoint",
+  "type": "Zombi",
+  "units": 4,
+  "hit_points": "116 (4 * (3d8 + 9 + 6))",
+  "speed": "6 m",
+  "vulnerabilities": [],
+  "damage_immunities": [
+    "poison"
+  ],
+  "condition_immunities": [
+    "empoisonné"
+  ],
+  "senses": {
+    "darkvision": "18 m",
+    "passive_perception": 8
+  },
+  "languages": "Comprend les langues qu'il connaissait de son vivant mais ne peut pas parler",
+  "challenge_rating": "1/4 (50 XP)",
+  "armor_class": 8,
+  "saving_throws": {
+    "WIS": 0
+  },
+  "stats": {
+    "FOR": 13,
+    "DEX": 6,
+    "CON": 16,
+    "INT": 3,
+    "SAG": 6,
+    "CHA": 5
+  },
+  "modifiers": {
+    "FOR": 1,
+    "DEX": -2,
+    "CON": 3,
+    "INT": -4,
+    "SAG": -2,
+    "CHA": -3
+  },
+  "traits": [
+    {
+      "name": "Ténacité de mort-vivant",
+      "description": "Si des dégâts font tomber le zombi à 0 point de vie, celui-ci doit effectuer un jet de sauvegarde de Constitution DD 5 + les dégâts subis, sauf en cas de dégâts radiants ou coup critique. En cas de réussite, il tombe à 1 point de vie à la place."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Coup",
+      "type": "Melee Weapon Attack",
+      "attack_bonus": 3,
+      "reach": "1,5 m",
+      "target": "Une cible",
+      "damage": "6 (4 * (1d6 + 4))",
+      "damage_type": "contondant"
+    }
+  ]
+}

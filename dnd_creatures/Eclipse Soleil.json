@@ -1,0 +1,60 @@
+{
+  "name": "Eclipse soleil",
+  "type": "Squelette",
+  "units": 6,
+  "hit_points": "120 (6 * (2d8 + 4 + 6))",
+  "speed": "9 m",
+  "vulnerabilities": [
+    "Contondant"
+  ],
+  "damage_immunities": [
+    "poison"
+  ],
+  "condition_immunities": [
+    "épuisement",
+    "empoisonné"
+  ],
+  "senses": {
+    "darkvision": "18 m",
+    "passive_perception": 9
+  },
+  "languages": "Comprend les langues qu'il connaissait de son vivant mais ne peut pas parler",
+  "challenge_rating": "1/4 (50 XP)",
+  "armor_class": 13,
+  "stats": {
+    "STR": 10,
+    "DEX": 14,
+    "CON": 15,
+    "INT": 6,
+    "WIS": 8,
+    "CHA": 5
+  },
+  "modifiers": {
+    "STR": 0,
+    "DEX": 2,
+    "CON": 2,
+    "INT": -2,
+    "WIS": -1,
+    "CHA": -3
+  },
+  "actions": [
+    {
+      "name": "Épée courte",
+      "type": "Melee Weapon Attack",
+      "attack_bonus": 4,
+      "reach": "1,5 m",
+      "target": "Une cible",
+      "damage": "7 (6 * (1d6 + 2 + 3))",
+      "damage_type": "perforant"
+    },
+    {
+      "name": "Arc court",
+      "type": "Ranged Weapon Attack",
+      "attack_bonus": 4,
+      "range": "24 m / 96 m",
+      "target": "Une cible",
+      "damage": "7 (6 * (1d6 + 2 + 3))",
+      "damage_type": "perforant"
+    }
+  ]
+}
