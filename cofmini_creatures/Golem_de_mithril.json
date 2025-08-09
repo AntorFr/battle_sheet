@@ -1,0 +1,41 @@
+{
+    "name": "Golem de mithril",
+    "niveau": 4,
+    "description": "Une statue d’alliage sacré animée par magie. Lente mais puissante, conçue pour garder un lieu important.",
+    "caracteristiques": {
+        "adresse": 0,
+        "esprit": 1,
+        "puissance": 5
+    },
+    "defenses": {
+        "defense": 15,
+        "points_de_vie": 38
+    },
+    "attaques": [
+        {
+            "nom": "Coup de poing métallique",
+            "degats": "1d8+5",
+            "type": "contact",
+            "description": "Les attaques sont considérées comme magiques."
+        }
+    ],
+    "capacites_speciales": [
+        {
+            "nom": "Armure de mithril",
+            "description": "Réduit de 2 les dommages des armes non-magiques. Immunisé au poison et aux effets mentaux simples (charme, peur).",
+            "type": "resistance"
+        },
+        {
+            "nom": "Force implacable",
+            "description": "Si le golem touche la même cible deux fois de suite, celle-ci doit réussir un test d’Adresse (diff. 13) ou tomber à terre.",
+            "type": "special",
+            "difficulte": 13
+        },
+        {
+            "nom": "Lent mais sûr",
+            "description": "Ne peut pas effectuer d’attaques multiples. Se déplace de 6 mètres par tour.",
+            "type": "special"
+        }
+    ],
+    "system": "cofmini"
+}
