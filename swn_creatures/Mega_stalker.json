@@ -1,0 +1,36 @@
+{
+    "title": "Mega Stalker — Alpha des chaînes volcaniques de Tyros Prime (Niv. 4)",
+    "role": "Prédateur alpha surévolué, capable de briser des défenses lourdes",
+    "stats": {
+        "PV": 35,
+        "CA": 17,
+        "Initiative": "+1",
+        "Effort": 2,
+        "Moral": 12,
+        "Déplacement": "12m",
+        "Perception": "+3 (odorat et vision nocturne)",
+        "Réaction": "+2",
+        "Bonus d'attaque": "+5",
+        "Attaques": 2
+    },
+    "capacities": [
+        "Alpha de Meute : les Stalkers proches gagnent +1 à l’attaque et au moral tant que le Mega Stalker est en vie.",
+        "Plaques Osseuses : réduction de dégâts de 2 contre les attaques physiques ; ignore la Perce-armure 1.",
+        "Traqueur Implacable : peut suivre une piste olfactive pendant 48h sans erreur, même dans des conditions météo extrêmes.",
+        "Rugissement Terrifiant : 1/jour, force toutes les créatures hostiles dans un rayon de 20m à réussir un test de Moral ou à fuir pendant 1d4 rounds."
+    ],
+    "weapons": [
+        {
+            "name": "Morsure dévastatrice",
+            "damage": "2d8+2",
+            "range": "Corps-à-corps",
+            "trait": "Sur un jet de dégâts max, inflige un saignement (1d4 PV par tour) jusqu’à stabilisation"
+        },
+        {
+            "name": "Coup de queue osseuse",
+            "damage": "1d10+1",
+            "range": "Corps-à-corps (2 cases)",
+            "trait": "Peut frapper plusieurs cibles adjacentes en un seul coup"
+        }
+    ]
+}

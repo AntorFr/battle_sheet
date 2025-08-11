@@ -1,0 +1,36 @@
+{
+    "title": "Stalker — Prédateur de Tyros Prime (Niv. 2)",
+    "role": "Chasseur de meute attiré par les vibrations et les signaux lumineux",
+    "stats": {
+        "PV": 15,
+        "CA": 15,
+        "Initiative": "+2",
+        "Effort": 1,
+        "Moral": 9,
+        "Déplacement": "15m",
+        "Perception": "+2 (odorat surdéveloppé)",
+        "Réaction": "+1",
+        "Bonus d'attaque": "+3",
+        "Attaques": 2
+    },
+    "capacities": [
+        "Hyperosmie Traqueuse : suit une piste olfactive sur des kilomètres ; les tests d’Évasion des cibles marquées subissent -1 tant que la créature reste à portée de piste.",
+        "Chasseur de Meute : si au moins un autre Stalker menace la même cible, gagne +1 à l’attaque et +1 aux dégâts.",
+        "Prédateur Silencieux : avantage aux tests de discrétion pour approcher une cible dans un environnement rocheux/cendreux.",
+        "Appât des Vibrations : attiré par sources lumineuses intermittentes et vibrations fortes ; reçoit +2 à la Perception pour localiser ce type de signaux."
+    ],
+    "weapons": [
+        {
+            "name": "Morsure cendrée",
+            "damage": "1d8",
+            "range": "Corps-à-corps",
+            "trait": "Sur un jet de dégâts max, la cible doit réussir un test de Physique (10) ou est renversée"
+        },
+        {
+            "name": "Griffes rocheuses",
+            "damage": "1d6+1",
+            "range": "Corps-à-corps",
+            "trait": "Perce-armure 1 contre armures légères"
+        }
+    ]
+}
