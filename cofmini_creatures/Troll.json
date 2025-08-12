@@ -1,0 +1,35 @@
+{
+    "name": "Troll",
+    "niveau": 3,
+    "description": "Une grande créature verte à la peau rugueuse, avec de longs bras et une force redoutable. Il vit souvent sous les ponts ou dans les forêts sombres, et il n’aime pas être dérangé.",
+    "caracteristiques": {
+        "adresse": 1,
+        "esprit": -1,
+        "puissance": 4
+    },
+    "defenses": {
+        "defense": 14,
+        "points_de_vie": 32
+    },
+    "attaques": [
+        {
+            "nom": "Coup de massue",
+            "degats": "1d8+4",
+            "type": "contact"
+        }
+    ],
+    "capacites_speciales": [
+        {
+            "nom": "Régénération",
+            "description": "Le Troll récupère 2 points de vie au début de son tour, sauf s’il a subi des dégâts de feu ou d’acide depuis le tour précédent.",
+            "type": "regeneration"
+        },
+        {
+            "nom": "Allonge",
+            "description": "Peut attaquer une cible à 3 mètres de distance avec son coup de massue.",
+            "type": "reach",
+            "portee": "3 mètres"
+        }
+    ],
+    "system": "cofmini"
+}
