@@ -1,0 +1,20 @@
+{
+  "title": "Spectre Vael'Khorr — Écho Cristallin (Niv. 3)",
+  "role": "Entité psionique immatérielle – souvenir piégé dans un cristal",
+  "stats": {
+    "PV": "9 (immatériel)",
+    "CA": "16 (incorporel, agilité surnaturelle)",
+    "Effort": "2",
+    "System Strain": "—",
+    "Saves": "Phys 16, Eva 12, Ment 10",
+    "Initiative": "+2",
+    "Déplacement": "10 m (lévitation, ignore terrain)"
+  },
+  "capacities": [
+    "Corps incorporel : ignore les dégâts des armes physiques, subit moitié DM des armes énergétiques (non-psioniques).",
+    "Souvenir dévorant (attaque mentale) : 2d6 DM mentaux, save Mentale pour ½. Délire ou coma si PV 0.",
+    "Double spectral (1/scène) : crée un leurre flottant, 50% de chance de détourner une attaque.",
+    "Souvenir résiduel (mort) : onde mentale, save Mentale (10) ou –1 à tous les jets (1d4 rounds).",
+    "Peut traverser murs non renforcés, indétectable par les moyens standards."
+  ]
+}

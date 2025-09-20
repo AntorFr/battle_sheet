@@ -1,0 +1,28 @@
+{
+    "title": "Combattant d’élite – Niveau 3",
+    "role": "Forces spéciales ou troupes de choc de l’AST.",
+    "stats": {
+        "PV": 18,
+        "CA": 16,
+        "Initiative": 2,
+        "Effort": 1,
+        "Moral": 10,
+        "Attaque": "+4",
+        "Mouvement": "10m",
+        "Compétences": "+2",
+        "Sauvegardes": "14+"
+    },
+    "capacities": [
+        "Ignore les malus de tir en mouvement.",
+        "Une fois par combat, peut agir deux fois en un round.",
+        "Immunisé à la peur standard."
+    ],
+    "weapons": [
+        {
+            "name": "Fusil d'assaut AST",
+            "damage": "1d10+2",
+            "range": "Moyenne",
+            "trait": "Polyvalent : peut tirer en automatique (touche 1 cible de plus, -2 à l’attaque)"
+        }
+    ]
+}

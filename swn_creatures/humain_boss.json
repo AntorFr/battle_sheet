@@ -1,0 +1,34 @@
+{
+    "title": "Combattant héroïque – Niveau 6",
+    "role": "Chef de force d’intervention, vétéran de nombreuses campagnes.",
+    "stats": {
+        "PV": 36,
+        "CA": 16,
+        "Initiative": 3,
+        "Effort": 2,
+        "Moral": 11,
+        "Attaque": "+8",
+        "Mouvement": "10m",
+        "Compétences": "+3",
+        "Sauvegardes": "12+"
+    },
+    "capacities": [
+        "Peut commander deux alliés pour agir immédiatement (1x/combat).",
+        "Ignore les dégâts d’attaque à zone (1x/combat).",
+        "Aura de discipline : +1 à tous les jets d’attaque des alliés à 10m."
+    ],
+    "weapons": [
+        {
+            "name": "Fusil mitrailleur tactique",
+            "damage": "2d6+2",
+            "range": "Longue",
+            "trait": "Tir soutenu : ignorer demi-couvert, +1 dégâts sur 19-20"
+        },
+        {
+            "name": "Pistolet de service lourd",
+            "damage": "1d8+1",
+            "range": "Courte",
+            "trait": "Rapide : pas de malus en combat rapproché"
+        }
+    ]
+}

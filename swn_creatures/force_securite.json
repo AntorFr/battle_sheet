@@ -1,0 +1,30 @@
+{
+    "title": "Soldat AST – Niveau 4",
+    "role": "Agent de sécurité chargé de la protection des avant-postes de l'AST.",
+    "stats": {
+        "PV": 24,
+        "CA": 17,
+        "Initiative": 2,
+        "Effort": 2,
+        "Moral": 9
+    },
+    "capacities": [
+        "Peut ordonner à une unité adjacente de se déplacer immédiatement de 10m comme action gratuite une fois par combat.",
+        "Résiste aux effets de peur ou de confusion mentale (jets avec avantage).",
+        "Possède un module de visée assistée : ignore la pénalité de portée jusqu'à moyenne distance."
+    ],
+    "weapons": [
+        {
+            "name": "Fusil à impulsion Mk.II",
+            "damage": "1d10+2",
+            "range": "Moyenne",
+            "trait": "Percutant, peut désactiver temporairement un champ de force (CA -2 pour 1 round sur 19-20)"
+        },
+        {
+            "name": "Lame téchno-carbure",
+            "damage": "1d8+1",
+            "range": "Corps-à-corps",
+            "trait": "Ignorance partielle des blindages (CA réduite de 1)"
+        }
+    ]
+}

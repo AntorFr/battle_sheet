@@ -1,0 +1,36 @@
+{
+  "title": "Umbrokh – Héraut de l’Oubli",
+  "role": "Gardien démoniaque d’un sanctuaire ancien",
+  "stats": {
+    "PV": 58,
+    "CA": 17,
+    "Initiative": "+1",
+    "Effort": 3,
+    "Moral": 12,
+    "Déplacement": "10m",
+    "Réaction mentale": "+2",
+    "Réaction physique": "+4",
+    "Réaction évasion": "+1"
+  },
+  "capacities": [
+    "Hurlement de l’Oubli (1/2 tours) : tous les êtres vivants dans un rayon de 10m doivent réussir un jet de sauvegarde Mental (diff. 13) ou subir -1 à tous les jets pour 1d4 rounds.",
+    "Armure d’Obsidienne : les attaques physiques qui infligent moins de 6 dégâts sont réduites à 0.",
+    "Chaînes Animées : à chaque tour, Umbrokh peut tenter de saisir un ennemi dans un rayon de 5m (test de Corps contre Corps, diff. 13). En cas de succès, la cible est entravée (pas de déplacement, malus -2 à l’attaque) jusqu’à un test réussi au tour suivant.",
+    "Vol de Peur (psionique) : une fois par combat, Umbrokh peut canaliser une peur profonde d’un personnage ciblé. Pendant 1d4 rounds, ce PJ subit un malus de -2 à tous ses jets contre Umbrokh.",
+    "Résistance aux pouvoirs psioniques : +2 à tous jets de sauvegarde contre effets mentaux ou psi."
+  ],
+  "weapons": [
+    {
+      "name": "Griffes d’Obscurité",
+      "damage": "2d8+2",
+      "range": "Corps-à-corps",
+      "trait": "Ignore 2 points d’armure ; si un 8 est obtenu sur un dé, la cible perd 1 Effort temporairement."
+    },
+    {
+      "name": "Chaîne Fouetteuse",
+      "damage": "1d10+1",
+      "range": "6m",
+      "trait": "Peut désarmer ou faire tomber la cible sur un test réussi (Mental ou Corps selon la cible)."
+    }
+  ]
+}

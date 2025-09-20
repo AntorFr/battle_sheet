@@ -1,0 +1,35 @@
+{
+  "title": "Brissh’kar - Fauves de Lirael",
+  "role": "Prédateurs xéno adaptés aux distorsions gravitationnelles résiduelles de Lirael.",
+  "stats": {
+    "PV": 12,
+    "CA": 15,
+    "Initiative": "+2",
+    "Effort": 1,
+    "Moral": 9,
+    "Vitesse": "15m",
+    "Perception": "+1 (vision thermique)",
+    "Réaction": "+0",
+    "Bonus d'attaque": "+4",
+    "Attaques": 2
+  },
+  "capacities": [
+    "Bond Gravitationnel : Peut se téléporter sur une courte distance (10m) une fois par combat.",
+    "Hurlement de rupture : Tous les PJ dans un rayon de 6m doivent réussir un jet de CON (diff. 8) ou subir -1 à tous les jets pendant 1 round.",
+    "Résistance Anormale : Ignore les 2 premiers points de dégâts physiques de chaque attaque."
+  ],
+  "weapons": [
+    {
+      "name": "Crocs déphasés",
+      "damage": "1d8+1",
+      "range": "Corps-à-corps",
+      "trait": "Ignore armures technologiques standards"
+    },
+    {
+      "name": "Griffes chirales",
+      "damage": "1d6+2",
+      "range": "Corps-à-corps",
+      "trait": "Cible automatiquement les zones non protégées (CA réduite de 1 contre cette attaque)"
+    }
+  ]
+}

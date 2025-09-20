@@ -1,0 +1,27 @@
+{
+    "title": "Humain martial – Niveau 1",
+    "role": "Milicien local ou garde civil armé.",
+    "stats": {
+        "PV": 6,
+        "CA": 10,
+        "Initiative": 1,
+        "Effort": 0,
+        "Moral": 8,
+        "Attaque": "+1",
+        "Mouvement": "10m",
+        "Compétences": "+1",
+        "Sauvegardes": "15+"
+    },
+    "capacities": [
+        "Peut faire feu de suppression : cible -1 à son prochain jet d'attaque.",
+        "Formation basique au maniement des armes."
+    ],
+    "weapons": [
+        {
+            "name": "Pistolet standard",
+            "damage": "1d6+1",
+            "range": "Courte",
+            "trait": "—"
+        }
+    ]
+}

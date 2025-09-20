@@ -1,0 +1,50 @@
+{
+    "name": "Fantôme du Miroir",
+    "niveau": 4,
+    "description": "Esprit spectral d'un être autrefois vivant, lié à un miroir magique. Il flotte silencieusement et peut traverser les murs légers.",
+    "caracteristiques": {
+        "adresse": 2,
+        "esprit": 3,
+        "puissance": 0
+    },
+    "defenses": {
+        "defense": 14,
+        "points_de_vie": 25
+    },
+    "attaques": [
+        {
+            "nom": "Toucher spectral",
+            "degats": "1d6+2",
+            "type": "contact",
+            "description": "Dégâts de froid/énergie spectrale. Ignore une partie de l'armure si non magique."
+        }
+    ],
+    "capacites_speciales": [
+        {
+            "nom": "Incorporel",
+            "description": "Traverse les murs et obstacles légers. Ne traverse pas les protections magiques ou structures trop solides.",
+            "type": "passive"
+        },
+        {
+            "nom": "Cri terrifiant",
+            "description": "Une fois par combat, tous les PJ à 6m doivent réussir un test de Courage (DD 12) ou être effrayés pour 1 tour.",
+            "type": "special"
+        },
+        {
+            "nom": "Vision dans le miroir",
+            "description": "Peut observer les vivants via un miroir magique et donner des visions aux PJ.",
+            "type": "utilitaire"
+        },
+        {
+            "nom": "Répulsion spectrale",
+            "description": "Une fois tous les deux tours, repousse un PJ (test de Force DD 12). Échec : le PJ est repoussé de 2m et perd sa prochaine attaque.",
+            "type": "special"
+        },
+        {
+            "nom": "Résistances",
+            "description": "Moitié des dégâts physiques non-magiques. Vulnérable au feu et à la lumière sacrée. Immunisé à la paralysie, poison et sommeil magique.",
+            "type": "passive"
+        }
+    ],
+    "system": "cofmini"
+}
