@@ -1,0 +1,46 @@
+{
+    "name": "Kobold",
+    "niveau": 2,
+    "description": "Petit humanoïde écailleux, malin et peureux. Les kobolds vivent en groupe et préfèrent les embuscades aux combats ouverts.",
+    "caracteristiques": {
+        "adresse": 2,
+        "esprit": 1,
+        "puissance": 0
+    },
+    "defenses": {
+        "defense": 12,
+        "points_de_vie": 12
+    },
+    "attaques": [
+        {
+            "nom": "Dague rouillée",
+            "degats": "1d6",
+            "type": "contact",
+            "description": "Attaque simple au corps à corps avec une vieille dague."
+        },
+        {
+            "nom": "Fronde",
+            "degats": "1d6",
+            "type": "distance",
+            "description": "Le kobold lance une pierre avec sa fronde (portée 15m)."
+        }
+    ],
+    "capacites_speciales": [
+        {
+            "nom": "Couardise",
+            "description": "Si le chef ou la moitié des kobolds sont vaincus, les survivants fuient automatiquement.",
+            "type": "passive"
+        },
+        {
+            "nom": "Tactique de meute",
+            "description": "Le kobold gagne +1 à ses attaques s’il attaque une cible déjà engagée par un allié.",
+            "type": "passive"
+        },
+        {
+            "nom": "Embuscade",
+            "description": "Si le kobold attaque par surprise, il inflige +1d4 dégâts supplémentaires.",
+            "type": "special"
+        }
+    ],
+    "system": "cofmini"
+}

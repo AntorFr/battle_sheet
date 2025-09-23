@@ -31,11 +31,6 @@
             "type": "special"
         },
         {
-            "nom": "Vision dans le miroir",
-            "description": "Peut observer les vivants via un miroir magique et donner des visions aux PJ.",
-            "type": "utilitaire"
-        },
-        {
             "nom": "Répulsion spectrale",
             "description": "Une fois tous les deux tours, repousse un PJ (test de Force DD 12). Échec : le PJ est repoussé de 2m et perd sa prochaine attaque.",
             "type": "special"

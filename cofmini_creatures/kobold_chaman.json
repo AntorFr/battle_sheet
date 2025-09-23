@@ -1,0 +1,51 @@
+{
+    "name": "Kobold Chaman",
+    "niveau": 3,
+    "description": "Kobold vêtu de peaux et de colifichets étranges, il manie la magie des esprits et guide son clan avec ruse et superstition.",
+    "caracteristiques": {
+        "adresse": 1,
+        "esprit": 3,
+        "puissance": 1
+    },
+    "defenses": {
+        "defense": 13,
+        "points_de_vie": 18
+    },
+    "attaques": [
+        {
+            "nom": "Bâton noueux",
+            "degats": "1d6+1",
+            "type": "contact",
+            "description": "Un coup maladroit mais chargé de symboles magiques."
+        },
+        {
+            "nom": "Éclair mineur",
+            "degats": "1d6+2",
+            "type": "distance",
+            "description": "Petit éclair magique projeté sur une cible à 15m."
+        }
+    ],
+    "capacites_speciales": [
+        {
+            "nom": "Invocation mineure",
+            "description": "Peut invoquer une lueur spectrale ou une petite illusion (effet narratif, pas de dégâts).",
+            "type": "utilitaire"
+        },
+        {
+            "nom": "Soutien spirituel",
+            "description": "Une fois par combat, le chaman peut accorder +2 aux jets d’attaque d’un allié pour un tour.",
+            "type": "special"
+        },
+        {
+            "nom": "Soin des esprits",
+            "description": "Une fois par jour, le chaman peut soigner un allié de 1d8+2 points de vie en appelant les esprits protecteurs.",
+            "type": "special"
+        },
+        {
+            "nom": "Fuite rusée",
+            "description": "Comme tout kobold, il préfère survivre. S’il est blessé à moins de 5 PV, il tente de fuir.",
+            "type": "passive"
+        }
+    ],
+    "system": "cofmini"
+}
