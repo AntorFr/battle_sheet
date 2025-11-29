@@ -7,7 +7,7 @@ import sys
 import os
 import json
 from pathlib import Path
-from battlesheet_generator import load_creature, generate_dnd_pdf, generate_swn_pdf, generate_cofmini_pdf
+from battlesheet_generator import load_creature, generate_dnd_pdf, generate_swn_pdf, generate_cofmini_pdf, generate_timothee_pdf
 
 def generate_dnd_creatures(creatures_dir="dnd_creatures", output_dir="output"):
     """Génère les fiches pour les créatures D&D"""
@@ -20,6 +20,11 @@ def generate_swn_creatures(creatures_dir="swn_creatures", output_dir="output"):
 def generate_cofmini_creatures(creatures_dir="cofmini_creatures", output_dir="output"):
     """Génère les fiches pour les créatures COF Mini"""
     return generate_creatures(creatures_dir, output_dir, generate_cofmini_pdf, "COFMini_Creatures.pdf", "COF Mini")
+
+
+def generate_timothee_creatures(creatures_dir="timothee_creatures", output_dir="output"):
+    """Génère les fiches pour le système JDR Timothée"""
+    return generate_creatures(creatures_dir, output_dir, generate_timothee_pdf, "Timothee_Creatures.pdf", "JDR Timothée")
 
 def generate_creatures(creatures_dir, output_dir, generator_func, output_filename, system_name):
     """Fonction générique pour générer les fiches de créatures"""
@@ -100,6 +105,7 @@ def main():
         print("  dnd [repertoire_sortie]      - Génère les fiches D&D (dossier: dnd_creatures)")
         print("  swn [repertoire_sortie]      - Génère les fiches SWN (dossier: swn_creatures)")
         print("  cofmini [repertoire_sortie]  - Génère les fiches COF Mini (dossier: cofmini_creatures)")
+        print("  timothee [repertoire_sortie] - Génère les fiches JDR Timothée (dossier: timothee_creatures)")
         print("  all [repertoire_sortie]      - Génère tous les systèmes")
         print("  --list                       - Liste les créatures disponibles")
         print("")
@@ -125,6 +131,8 @@ def main():
         generate_swn_creatures("swn_creatures", output_dir)
     elif command == "cofmini":
         generate_cofmini_creatures("cofmini_creatures", output_dir)
+    elif command == "timothee":
+        generate_timothee_creatures("timothee_creatures", output_dir)
     elif command == "all":
         print("🎲 Génération des fiches pour tous les systèmes...\n")
         dnd_success = generate_dnd_creatures("dnd_creatures", output_dir)
@@ -151,7 +159,8 @@ def list_creatures():
     systems = [
         ("D&D", "dnd_creatures"),
         ("SWN", "swn_creatures"),
-        ("COF Mini", "cofmini_creatures")
+        ("COF Mini", "cofmini_creatures"),
+        ("JDR Timothée", "timothee_creatures")
     ]
     
     for system_name, directory in systems:

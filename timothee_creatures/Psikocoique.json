@@ -1,0 +1,51 @@
+{
+  "name": "Psikocoique",
+  "niveau": 4,
+  "description": "Créature psychique inspirée d'une bestiole étrange : manipule les pensées et les objets légers à distance.",
+  "caracteristiques": {
+    "adresse": 2,
+    "esprit": 4,
+    "puissance": 1
+  },
+  "defenses": {
+    "defense": 13,
+    "points_de_vie": 30
+  },
+  "attaques": [
+    {
+      "nom": "Choc psychique",
+      "degats": "2d6+1",
+      "type": "psychique",
+      "description": "Attaque à distance infligeant des dégâts psychiques. Peut perturber la concentration."
+    },
+    {
+      "nom": "Morsure mentale",
+      "degats": "1d8",
+      "type": "contact",
+      "description": "Attaque de contact brutale avec chance légère d'étourdir la cible."
+    }
+  ],
+  "capacites_speciales": [
+    {
+      "nom": "Télékinésie",
+      "description": "Déplace ou repousse un objet/ennemi jusqu'à 2 m (test de Force DD 12 pour résister).",
+      "type": "special"
+    },
+    {
+      "nom": "Bouclier mental",
+      "description": "Réduit de moitié les dégâts psychiques reçus pendant 1 tour. Recharge : 3 tours.",
+      "type": "passive"
+    },
+    {
+      "nom": "Contrôle léger",
+      "description": "Une fois par combat, tente de contrôler une cible (test d'Esprit DD 14). Succès : contrôle 1 tour.",
+      "type": "special"
+    },
+    {
+      "nom": "Vision psychique",
+      "description": "Permet de voir à travers illusions mineures et de détecter les intentions faibles.",
+      "type": "utilitaire"
+    }
+  ],
+  "system": "jdr_timothee"
+}
